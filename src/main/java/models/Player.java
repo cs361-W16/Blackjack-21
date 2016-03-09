@@ -2,7 +2,7 @@ package models;
 
 /**
 <<<<<<< HEAD
- * Created by nathan on 3/8/16.
+ * Created by connor on 3/8/16.
  */
 public class Player extends User {
     private int Bet;
