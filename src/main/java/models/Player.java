@@ -13,6 +13,7 @@ public class Player extends User {
     public int money;
     public int split;
 
+
     public Player(){
         money = 100;
         bet = 2;
@@ -65,5 +66,9 @@ public class Player extends User {
         money = money + bet;
     }
 
+    public void doubleDown(int setBet)
+    {
+        money = (setBet * 2);
+    }
 
 }
